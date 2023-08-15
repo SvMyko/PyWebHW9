@@ -2,8 +2,10 @@
 
 ##  Quotes Scraper
 
-
-This script allows you to scrape quotes and author information from the website http://quotes.toscrape.com and store the data in JSON files. The extracted data includes the quote text, author name, tags, and author details.
+**Scraper**  
+	This script allows you to scrape quotes and author information from the website http://quotes.toscrape.com and store the data in JSON files. The extracted data includes the quote text, author name, tags, and author details.
+**Baseloader**  
+	This script from the previous homework assignment is used to upload data to the MongoDB Atlas database.
 
 ## Requirements
 
