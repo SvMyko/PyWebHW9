@@ -21,7 +21,7 @@ def get_author_info(author_link):
     return author_info
 
 
-def parse_quotes(page_number):
+def parse_quotes(page_number=1):
     quotes = []
     authors = []
     while True:
@@ -45,8 +45,7 @@ def parse_quotes(page_number):
                 "quote": quote_text
             }
             quotes.append(quote_info)
-
-
+        page_number += 1
     return quotes, authors
 
 
