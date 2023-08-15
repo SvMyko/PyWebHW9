@@ -35,6 +35,8 @@ or run this script for multiprocessing version of scrapper:
 
 		python scraper_multiprocess.py
 
+**ATTENTION. The order of the parsing results will differ from the order in the source.**
+
 3. You will be prompted to enter the starting page number for scraping (up to 10). Follow the instructions on the terminal.
 4. The script will start scraping quotes and author information from the specified page onwards. The extracted data will be stored in two JSON files: `quotes.json` and `authors.json`.
 
