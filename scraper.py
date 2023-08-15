@@ -46,7 +46,6 @@ def parse_quotes(page_number):
             }
             quotes.append(quote_info)
 
-        page_number += 1
 
     return quotes, authors
 
