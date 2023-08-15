@@ -36,7 +36,7 @@ Run the `baseloader.py` script to load the data from `quotes.json` and `authors.
 		python baseloader.py
 
 
-YYou can verify the availability of the data in MongoDB database using using this connection string:
+You can verify the availability of the data in MongoDB database using this connection string:
 
 		"mongodb+srv://deuterrium:QdW9KTJr3ssa8gMy@cluster0.7r0vvpw.mongodb.net/test?retryWrites=true&w=majority"
 
