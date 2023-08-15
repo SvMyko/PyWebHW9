@@ -13,8 +13,8 @@ This script allows you to scrape quotes and author information from the website 
 
 You can install the required libraries using the following command:
 
-	`pip install beautifulsoup4 requests`
-	`pip install mongoengine`
+	pip install beautifulsoup4 requests
+	pip install mongoengine
 
 ## Usage
 
@@ -25,7 +25,7 @@ You can install the required libraries using the following command:
 
 1. Run the script by entering the following command:
 
-		`python scraper.py`
+		python scraper.py
 
 2. You will be prompted to enter the starting page number for scraping (up to 10). Follow the instructions on the terminal.
 3. The script will start scraping quotes and author information from the specified page onwards. The extracted data will be stored in two JSON files: `quotes.json` and `authors.json`.
@@ -33,12 +33,12 @@ You can install the required libraries using the following command:
 **Baseloader**
 Run the `baseloader.py` script to load the data from `quotes.json` and `authors.json` into the MongoDB Atlas database:
 
-		`python baseloader.py`
+		python baseloader.py
 
 
 YYou can verify the availability of the data in MongoDB database using using this connection string:
 
-		`"mongodb+srv://deuterrium:QdW9KTJr3ssa8gMy@cluster0.7r0vvpw.mongodb.net/test?retryWrites=true&w=majority"`
+		"mongodb+srv://deuterrium:QdW9KTJr3ssa8gMy@cluster0.7r0vvpw.mongodb.net/test?retryWrites=true&w=majority"
 
 ## License
 
