@@ -30,7 +30,7 @@ You can install the required libraries using the following command:
 2. You will be prompted to enter the starting page number for scraping (up to 10). Follow the instructions on the terminal.
 3. The script will start scraping quotes and author information from the specified page onwards. The extracted data will be stored in two JSON files: `quotes.json` and `authors.json`.
 
-**Baseloader**
+**Baseloader**  
 Run the `baseloader.py` script to load the data from `quotes.json` and `authors.json` into the MongoDB Atlas database:
 
 		python baseloader.py
